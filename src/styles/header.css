@@ -1,0 +1,40 @@
+/* control icons */
+
+.list-social-networks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  & img {
+    width: 26px;
+  }
+}
+.branding {
+  width: 100%;
+  max-width: 225px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background: linear-gradient(to top, var(--color-gray-500) 20%, transparent 80%);
+}
+.container-image-user figure img{
+  width: 100%;
+  display: block;
+}
+
+.name-user a {
+  font: var(--font-m);
+  letter-spacing: var(--traking-m);
+}
+
+.container-image-user {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
