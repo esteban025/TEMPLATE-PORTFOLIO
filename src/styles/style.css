@@ -1,5 +1,10 @@
-/* get colors */
+/* imports */
+@import "./header.css";
+@import "./hero-sections.css";
+
+
 :root {
+  /* get colors */
   --color-dark-page: #151515;
   --color-primary: #4EE1A0;
   --color-gray-100: #D9D9D9;
@@ -11,14 +16,14 @@
   --font-xl: 700 88px/88px var(--font-base);
   --tracking-xl: -2.5px;
 
-  --font-l: 700 48px/56px var(--font-base);
-  --tracking-l: -1.5px;
+  --font-l: 700 38px/50px var(--font-base);
+  --tracking-l: -1px;
 
   --font-m: 700 24px/32px var(--font-base);
   --tracking-m: normal;
 
   /* -------- Body -------- */
-  --font-body-l: 500 18px/28px var(--font-base);
+  --font-body-l: 500 16px/26px var(--font-base);
   --tracking-body-l: normal;
 
   color-scheme: light dark;
@@ -36,8 +41,7 @@ body {
   letter-spacing: var(--tracking-body-l);
   background-color: var(--color-dark-page);
 }
-
-h1 {
-  font: var(--font-xl);
-  letter-spacing: var(--tracking-xl);
+a {
+  text-decoration: none;
+  color: currentColor;
 }
