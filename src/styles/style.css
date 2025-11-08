@@ -9,11 +9,13 @@
   --color-primary: #4EE1A0;
   --color-gray-100: #D9D9D9;
   --color-gray-500: #242424;
+  --color-gradient-image: linear-gradient(to top, var(--color-gray-500) 10%, transparent 70%);
 
   --font-base: 'Space Grotesk', sans-serif;
 
   /* -------- Headings -------- */
-  --font-xl: 700 88px/88px var(--font-base);
+  --size-tittle: clamp(40px, 8vw, 80px);
+  --font-xl: 700 var(--size-tittle) var(--font-base);
   --tracking-xl: -2.5px;
 
   --font-l: 700 38px/50px var(--font-base);
@@ -25,6 +27,7 @@
   /* -------- Body -------- */
   --font-body-l: 500 16px/26px var(--font-base);
   --tracking-body-l: normal;
+
 
   color-scheme: light dark;
 }
