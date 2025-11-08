@@ -28,9 +28,11 @@
 }
 
 @media (width >= 768px) {
-  
   .skills {
     margin:0 2rem;
+  }
+  .skills-section {
+    margin: 0 2rem;
   }
   .skills-section article{
     align-items: start;
