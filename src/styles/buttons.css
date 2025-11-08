@@ -1,0 +1,12 @@
+.btn-primary {
+  text-transform: uppercase;
+  align-self: center;
+  padding-block: .6rem;
+  border-bottom: 2px solid var(--color-primary);
+  transition: color 200ms ease-in-out;
+  letter-spacing: 2.3px;
+
+  &:hover {
+    color: var(--color-primary);
+  }
+}

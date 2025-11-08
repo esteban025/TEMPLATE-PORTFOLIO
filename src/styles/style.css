@@ -1,7 +1,9 @@
 /* imports */
+@import "./buttons.css";
 @import "./header.css";
 @import "./hero-sections.css";
 @import "./skills.css";
+@import "./projects.css";
 
 
 :root {
@@ -17,7 +19,11 @@
   /* -------- Headings -------- */
   --size-title: clamp(40px, 8vw, 80px);
   --font-xl: 700 var(--size-title) var(--font-base);
-  --tracking-xl: -2.5px;
+  /* --tracking-xl: -2.5px; */
+
+  --size-subtitle-h2: clamp(36px, 5vw, 64px);
+  --font-lg: 700 var(--size-subtitle-h2) var(--font-base);
+
 
   --size-subtitle-h3: clamp(32px, calc(1.9vw + 25px), 45px);
   --font-md: 700 var(--size-subtitle-h3) var(--font-base);
