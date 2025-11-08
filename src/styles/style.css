@@ -1,6 +1,7 @@
 /* imports */
 @import "./header.css";
 @import "./hero-sections.css";
+@import "./skills.css";
 
 
 :root {
@@ -14,9 +15,12 @@
   --font-base: 'Space Grotesk', sans-serif;
 
   /* -------- Headings -------- */
-  --size-tittle: clamp(40px, 8vw, 80px);
-  --font-xl: 700 var(--size-tittle) var(--font-base);
+  --size-title: clamp(40px, 8vw, 80px);
+  --font-xl: 700 var(--size-title) var(--font-base);
   --tracking-xl: -2.5px;
+
+  --size-subtitle-h3: clamp(32px, calc(1.9vw + 25px), 45px);
+  --font-md: 700 var(--size-subtitle-h3) var(--font-base);
 
   --font-l: 700 38px/50px var(--font-base);
   --tracking-l: -1px;
