@@ -5,6 +5,8 @@
   border-bottom: 2px solid var(--color-primary);
   transition: color 200ms ease-in-out;
   letter-spacing: 2.3px;
+  background-color: transparent;
+  cursor: pointer;
 
   &:hover {
     color: var(--color-primary);

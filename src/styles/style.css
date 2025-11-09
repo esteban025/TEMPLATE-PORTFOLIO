@@ -4,6 +4,7 @@
 @import "./hero-sections.css";
 @import "./skills.css";
 @import "./projects.css";
+@import "./footer.css";
 
 
 :root {
@@ -12,6 +13,7 @@
   --color-primary: #4EE1A0;
   --color-gray-100: #D9D9D9;
   --color-gray-500: #242424;
+  --color-red-error: #FF6F5B;
   --color-gradient-image: linear-gradient(to top, var(--color-gray-500) 10%, transparent 70%);
 
   --font-base: 'Space Grotesk', sans-serif;
@@ -58,6 +60,7 @@ body {
   letter-spacing: var(--tracking-body-l);
   background-color: var(--color-dark-page);
 }
+
 a {
   text-decoration: none;
   color: currentColor;

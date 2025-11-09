@@ -5,16 +5,18 @@
  
   & img {
     width: 26px;
+    display: block;
   }
 }
 .list-social-networks > a{
+  display: block;
   transition: transform 200ms ease-in-out;
 
   &:hover {
     transform: scale(1.1);
 
     & img {
-      filter: drop-shadow(0 2px 8px #ffffff80);
+      filter: brightness(0) saturate(100%) invert(81%) sepia(26%) saturate(1196%) hue-rotate(106deg) brightness(95%) contrast(93%);
     }
   }
 }
