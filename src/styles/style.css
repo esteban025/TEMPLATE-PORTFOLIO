@@ -28,6 +28,10 @@
   --size-subtitle-h3: clamp(32px, calc(1.9vw + 25px), 45px);
   --font-md: 700 var(--size-subtitle-h3) var(--font-base);
 
+  --size-subtitle-h4: clamp(28px, calc(1.5vw + 20px), 38px);
+  --font-sm: 700 var(--size-subtitle-h4) var(--font-base);
+
+
   --font-l: 700 38px/50px var(--font-base);
   --tracking-l: -1px;
 
