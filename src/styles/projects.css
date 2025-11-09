@@ -23,6 +23,8 @@
 
 .content-projects > article figure {
   position: relative;
+  border-radius: .25rem;
+  overflow: hidden;
 
   & .btns-links-projects {
     position: absolute;
@@ -47,7 +49,26 @@
 .content-projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.75rem;
+  gap: 3rem 1.75rem;
+}
+.content-projects > article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  & h4 {
+    /* font: var(--font-sm); */
+    font-size: 22px;
+    text-transform: uppercase;
+
+  }
+  & .soft-skills {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    color: var(--color-gray-100);
+  }
 }
 
 @media (width >= 768px) {
