@@ -55,10 +55,14 @@
   border: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 body {
   font: var(--font-body-l);
   letter-spacing: var(--tracking-body-l);
   background-color: var(--color-dark-page);
+  overflow-x: hidden;
 }
 
 a {

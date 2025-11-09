@@ -9,6 +9,8 @@
   gap: 2rem ;
   justify-content: center;
   align-items: center;
+
+  position: relative;
 }
 
 .skills-section article{
@@ -24,6 +26,16 @@
   }
   & p {
     color: var(--color-gray-100);
+  }
+}
+
+.skills-section .decorative-circles {
+  position: absolute;
+  bottom: -1%;
+  left: calc(80% + 3vw);
+
+  & img {
+    display: block;
   }
 }
 

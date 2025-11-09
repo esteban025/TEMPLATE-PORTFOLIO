@@ -1,8 +1,18 @@
+.dd > div.decorative-circles {
+  position: absolute;
+  top: 4%;
+  right: calc(70% - 1.25rem);
+
+  & img {
+    display: block;
+  }
+}
+
 .list-social-networks {
   display: flex;
   align-items: center;
   gap: 1rem;
- 
+
   & img {
     width: 26px;
     display: block;

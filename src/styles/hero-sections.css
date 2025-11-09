@@ -3,6 +3,8 @@
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
+
+  position: relative;
 }
 .hero-section {
   padding: 3rem 0;
