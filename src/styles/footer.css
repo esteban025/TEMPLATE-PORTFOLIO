@@ -107,6 +107,18 @@ footer .header {
 
   border-top: 1px solid #fff;
 
+  position: relative;
+
+  /* decoration circles */
+  & > .decorative-circles {
+    position: absolute;
+    bottom: 150%;
+    right: 80%;
+
+    & img {
+      display: block;
+    }
+  }
 }
 
 footer .list-social-networks {
